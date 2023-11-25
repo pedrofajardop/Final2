@@ -1,5 +1,5 @@
 import Header from "../componentes/Header";
-import Navbar from "../componentes/Navbar";
+import NAvbar from "../componentes/Index";
 
 
 
