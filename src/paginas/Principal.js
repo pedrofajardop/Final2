@@ -56,12 +56,7 @@ export const Principal = () => {
     </div>
   ));
 
-  const addToCart = (productId) => {
-    // Implementa la lógica para agregar productos al carrito
-    console.log(`Producto ${productId} agregado al carrito`);
-    // Actualiza la cantidad total en el carrito
-    setCartTotal((prevTotal) => prevTotal + 1);
-  };
+  
 
   return (
     <div>

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Header from "../componentes/Header";
-import Footer from "../componentes/Footer";
 import NAvbar from '../componentes/Index';
 import { Button } from "react-bootstrap";
 

@@ -33,18 +33,8 @@ const NAvbar = () => {
     
         fetchProducts();
       }, []);
-    const gallery = products.map((product) => (
-        <div key={product.id} className="product-card">
-          <Button><img className="imagen im-center content shadow" src={product.image} alt={product.title} /></Button>
-          <p className='im-center'>${product.price}</p>
-        </div>
-      ));
-    const addToCart = (productId) => {
-    // Implementa la lógica para agregar productos al carrito
-    console.log(`Producto ${productId} agregado al carrito`);
-    // Actualiza la cantidad total en el carrito
-    setCartTotal((prevTotal) => prevTotal + 1);
-    };
+    
+    
 
     const [isModalOpen, setIsModalOpen] = useState(false);
 
