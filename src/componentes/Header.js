@@ -16,9 +16,3 @@ function Header() {
 }
 
 export default Header;
-
-
-{/* <div style={{padding: 1,
-                  color: "black", backgroundColor: 'pink'}}>
-        <h1>Tienda RoJoPe</h1>
-      </div> */}

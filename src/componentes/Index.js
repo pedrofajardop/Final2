@@ -2,7 +2,6 @@ import React from "react";
 import {NavLink} from "react-router-dom";
 import { useState, useEffect } from 'react';
 import Modal from '../componentes/Modal';
-import Slider from 'react-slick';
 
 /* import {
     Nav,
@@ -56,17 +55,6 @@ const NAvbar = () => {
     const closeModal = () => {
         setIsModalOpen(false);
     };
-
-    const productList = products.map((product) => (
-        <div key={product.id} className="product-card">
-          <img className="imagen" src={product.image} alt={product.title} />
-          <h3>{product.title}</h3>
-          <p>${product.price}</p>
-          <button onClick={() => addToCart(product.id)} className="button">
-            Agregar al carro
-          </button>
-        </div>
-      ));
     return (
         <div className="nav-bg">
         <NavbarBs sticky ="top" className="nav-bg">

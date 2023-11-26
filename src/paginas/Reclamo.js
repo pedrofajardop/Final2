@@ -1,6 +1,5 @@
-import Header from '../componentes/Header'; // Asegúrate de poner la ruta correcta
-import NAvbar from '../componentes/Index'; // Asegúrate de poner la ruta correcta
-import Footer from '../componentes/Footer'; // Asegúrate de poner la ruta correcta
+import Header from '../componentes/Header';
+import NAvbar from '../componentes/Index'; 
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';

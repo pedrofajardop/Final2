@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import {NavLink} from "react-router-dom";
-import {Button, Container, Nav, Navbar as NavbarBs } from "react-bootstrap";
 import Header from '../componentes/Header';
 import NAvbar from '../componentes/Index';
 import Slider from 'react-slick';
@@ -8,7 +6,9 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 export const Principal = () => {
+  // eslint-disable-next-line no-unused-vars
   const [products, setProducts] = useState([]);
+  // eslint-disable-next-line no-unused-vars
   const [cartTotal, setCartTotal] = useState(0); // Nuevo estado para la cantidad total en el carrito
 
   useEffect(() => {
@@ -62,18 +62,6 @@ export const Principal = () => {
     // Actualiza la cantidad total en el carrito
     setCartTotal((prevTotal) => prevTotal + 1);
   };
-
-  const productList = products.map((product) => (
-    <div key={product.id} className="product-card">
-      <img className="imagen" src={product.image} alt={product.title} />
-      <h3>{product.title}</h3>
-      <p>${product.price}</p>
-      <button onClick={() => addToCart(product.id)} className="button">
-        Agregar al carro
-      </button>
-    </div>
-  ));
-  
 
   return (
     <div>

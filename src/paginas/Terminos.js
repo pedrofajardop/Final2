@@ -1,6 +1,5 @@
 import Header from "../componentes/Header";
 import NAvbar from "../componentes/Index";
-import Footer from "../componentes/Footer";
 
 export default function Terminos() {
     return(

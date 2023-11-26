@@ -1,7 +1,4 @@
-import Header from "../componentes/Header";
-import NAvbar from "../componentes/Index";
-
-
+import React from "react";
 
 export default function Errorpagina() {
     return(
