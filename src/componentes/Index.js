@@ -12,11 +12,12 @@ import Modal from '../componentes/Modal';
     NavBtnLink,
 } from "./NavbarElements"; */
 
-import {Button, Container, Nav, Navbar as NavbarBs } from "react-bootstrap";
+import {Container, Nav, Navbar as NavbarBs } from "react-bootstrap";
 
 const NAvbar = () => {
+    // eslint-disable-next-line no-unused-vars
     const [products, setProducts] = useState([]);
-
+    // eslint-disable-next-line no-unused-vars
     const [cartTotal, setCartTotal] = useState(0); // Nuevo estado para la cantidad total en el carrito
 
     useEffect(() => {
