@@ -97,7 +97,6 @@ function Carrito() {
           <Button variant="primary">Checkout</Button>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
