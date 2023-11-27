@@ -57,8 +57,8 @@ export const Productos = () => {
       <img className="imagen" src={product.image} alt={product.title} />
       <h3>{product.title}</h3>
       <p>${product.price} (Cantidad: {product.quantity})</p>
-      <Button className='button1' onClick={() => addToCart(product.id)}> +1</Button>
-      <Button className='button1' onClick={() => removeFromCart(product.id)}> -1</Button>
+      <Button className='button1' onClick={() => addToCart(product.id)}> + </Button>
+      <Button className='button1' onClick={() => removeFromCart(product.id)}> - </Button>
     </div>
   ));
   
