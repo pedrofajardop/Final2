@@ -21,8 +21,8 @@ function Carrito() {
         <img className="imagen" src={product.image} alt={product.title} />
         <h3>{product.title}</h3>
         <p>${product.price} (Cantidad: {product.quantity})</p>
-        <Button onClick={() => addToCart(product.id)}>+1</Button>
-        <Button onClick={() => removeFromCart(product.id)}>-1</Button>
+        <Button onClick={() => addToCart(product.id)}>+</Button>
+        <Button onClick={() => removeFromCart(product.id)}>-</Button>
       </div>
     ));
   };
