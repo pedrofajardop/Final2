@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Header from '../componentes/Header';
 import NAvbar from '../componentes/Index';
-import Footer from '../componentes/Footer';
 import { Button } from 'react-bootstrap';
 
 function Carrito() {
