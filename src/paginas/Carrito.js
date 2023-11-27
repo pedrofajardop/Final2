@@ -51,7 +51,7 @@ function Carrito() {
   const removeFromCart = (productId) => {
     const productInCart = cart.find(product => product.id === productId);
 
-    if (productInCart && productInCart.quantity >= 1) {
+    if (productInCart && productInCart.quantity > 1) {
       // Reducir la cantidad si es mayor que 1
       const updatedCart = cart.map(product =>
         product.id === productId
