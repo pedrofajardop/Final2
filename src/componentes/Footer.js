@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink} from "react-router-dom";
 import {
   Box,
   FooterContainer,
@@ -34,7 +35,7 @@ const Footer = () => {
                       <FooterLink href="#">
                           Asesorias
                       </FooterLink>
-                      <FooterLink href="Reclamo">
+                      <FooterLink to="/Reclamo">
                           Reclamos
                       </FooterLink>
                   </Column>
@@ -74,7 +75,7 @@ const Footer = () => {
           >
               Tienda RoJoPe 2023-2
           </p>
-          <FooterLink href="/Terminos">
+          <FooterLink to="/Terminos">
               <i className="fab fa-twitter">
                   <span
                       style={{
